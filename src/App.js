@@ -39,10 +39,7 @@ class App extends Component {
   }
 
   likeClicked() {
-    let newNumberOfLikes = this.state.likes + 1;
-    this.setState({
-      likes: newNumberOfLikes
-    });
+    // TODO
   }
 
   render() {
